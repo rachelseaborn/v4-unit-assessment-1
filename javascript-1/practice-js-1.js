@@ -2,16 +2,18 @@
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
 //CODE HERE 
+let myName = 'Rachel'
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-
+let faveNum = 13
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+let lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -20,7 +22,9 @@
 */
 
 //CODE HERE
-
+function sum(num1,num2) {
+  return num1 +num2
+}
 //////////////////PROBLEM 5////////////////////
 /*
   Create a function called 'trueOrFalse' that takes in a single parameter called 'data'. 
@@ -30,6 +34,13 @@
 */
 
 //CODE HERE
+function trueOrFalse(data) {
+  if (data !=0) {
+    return true 
+  } else {
+    return false
+  }
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -40,7 +51,13 @@
 */
 
 //CODE HERE
-
+function oddChecker(num) {
+  if (num % 2 == 0) {
+    return 'the number is even'
+  } else {
+    return 'the number is odd'
+  }
+}
 //////////////////PROBLEM 7////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -49,7 +66,9 @@
 */
 
 //CODE HERE
-
+function iLove(name,love) {
+  return `${name} loves ${love}`
+}
 
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
@@ -57,11 +76,13 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
+let colorCopy = faveColors.slice();
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+colorCopy.push('blue');
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -72,6 +93,9 @@ const faveColors = ['red', 'green', 'black']
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
+
+//let middleNums = [1, 2, 3];
+let middleNums = numbers.slice(1, 4);
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -88,6 +112,14 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 //CODE HERE
+let me = {
+  firstName: 'Rachel',
+  state: 'AZ',
+  age: 35,
+  greeter: function() {
+  'Hello! My name is ${me.firstName} and I live in ${me.state}'
+  }
+}
 
 //////////////////PROBLEM 12////////////////////
 /* 
