@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = 'Git is an open-source software source control system. Git is also the command to execute source control actions.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'GitHub is an open-source cloud service where git users can store git code repositories.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -34,7 +36,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description: 'Create an empty git repository',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +47,10 @@
 */
 
 //CODE HERE
+let clone = {
+    description: 'Create a copy of a git repository',
+    code: 'git clone [repository to copy]'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +59,10 @@
 */
 
 //CODE HERE
+let status = {
+    description: 'list status of files as staged, unstaged, or untracked.',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +71,10 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'Stage changes in directory or file in local repository prior to commit. git add . is all changes in pwd.',
+    code: 'git add . <or other directory or file>'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,6 +83,10 @@
 */
 
 //CODE HERE
+let commit = {
+    description: 'Create snapshot of staged changes in local git repository.',
+    code: 'git commit -m"comment"'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -74,6 +95,10 @@
 */
 
 //CODE HERE
+let addRemote = {
+    description: 'Add connection to a remote repository',
+    code: 'git remote add'
+} 
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -82,3 +107,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: 'Push changes to github cloud repository.',
+    code: 'git push'
+}
