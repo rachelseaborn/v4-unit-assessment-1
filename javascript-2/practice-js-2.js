@@ -97,7 +97,7 @@ let commit = {
 //CODE HERE
 let addRemote = {
     description: 'Add connection to a remote repository',
-    code: 'git remote add'
+    code: "git remote add origin"
 } 
 
 //////////////////PROBLEM 9////////////////////
