@@ -23,3 +23,34 @@ li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: medium;
    }
+
+   #sectionhtml {
+       height: 300px;
+       width: 90vw;
+       border-style: dotted;
+       margin: 30px;
+   }
+
+   #htmllogo {
+       height: 140px;
+       float: left;
+       margin-top: 80px;
+
+   }
+
+
+   #htmltext {
+   }
+
+   #sectioncss {
+    height: 375px;
+    width: 90vw;
+    border-style: dotted;
+    margin: 30px;
+   }
+
+   #csslogo {
+       height: 140px;
+       float: right;
+       margin-top: 80px;
+   }
