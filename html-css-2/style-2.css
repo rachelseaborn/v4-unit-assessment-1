@@ -1,0 +1,106 @@
+
+
+header {
+    height: 100px;
+    width: 90vw;
+    background-color: #99FFCC;
+}
+
+h1 {
+    text-align: left;
+    padding: 30px;
+}
+
+.rectangles {
+    
+    height: 200px;
+    width: 90vw;
+    border-style: dotted;
+}
+/*
+.rectangleshapes {
+    display: inline; 
+    box-sizing: content-box;
+   
+} */
+.rectangle {
+    height: 60px;
+    width: 100px;
+    background: rebeccapurple;
+    display: inline-block;
+    border: 2px solid red;
+   /* margin-right: 30px;
+    margin-left: 20px; */
+    margin: 20px 30px 0px 20px;
+}
+
+.squaresmall {
+    height: 60px;
+    width: 60px;
+    background: blue;
+    box-shadow: 2px 2px 4px gray ;
+    display: inline-block;
+    /*margin-right: 30px; */
+    margin: 20px 30px 0px 20px;
+
+}
+
+.squarebig {
+    height: 150px;
+    width: 150px;
+    background: #FF99CC;
+    display: inline-block;
+    /*margin-right: 30px; */
+    margin: 20px 30px 0px 20px;
+}
+
+.snowman {
+    height: 300px;
+    width: 90vw;
+    border-style: dotted;
+}
+
+.snowmanhead {
+border-radius: 50%; 
+height: 60px;
+width: 60px;
+background: white;
+display: block;
+border: 2px solid gray;
+
+margin: 20px 30px 0px 36px;
+}
+
+.snowmanmiddle {
+border-radius: 50%; 
+height: 80px;
+width: 80px;
+background: white;
+display: block;
+border: 2px solid gray;
+
+margin: 0px 30px 0px 28px; 
+}
+
+.snowmanbottom {
+    border-radius: 50%; 
+    height: 100px;
+    width: 100px;
+    background: white;
+    display: block;
+    border: 2px solid gray;
+    
+    margin: 0px 30px 0px 20px; 
+    }
+
+.fishworld {
+    height: 230px;
+    width: 90vw;
+    border-style: dotted;
+    padding: 15px;
+    }
+
+    /*.fishtank {
+       float: left;
+       margin: 20px 0px 0px 20px;
+    } */
