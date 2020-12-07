@@ -31,6 +31,18 @@ li {
        margin: 30px;
    }
 
+   #htmltext {
+       margin: 20px;
+   }
+
+   /*p {
+       margin: 20px;
+   } */
+
+   #csstext {
+       margin: 20px;
+   }
+
    #htmllogo {
        height: 140px;
        float: left;
@@ -39,8 +51,10 @@ li {
    }
 
 
-   #htmltext {
-   }
+   /*#htmlheading {
+       clear: left;
+   }  */
+   
 
    #sectioncss {
     height: 375px;
